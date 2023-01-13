@@ -25,8 +25,11 @@ Functional programming to Javascript ES6+
 
   ```javascript
   const a = 10;
+
   const add10 = (a) => a + 10;
+
   add10(a);
+
   const r = add10(a);
   log(r); //20
   ```
